@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.bg-blueCustomer {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(3, 235, 255) 0%,
+    rgb(152, 70, 242) 100.2%
+  );
+}
+
+.bg-menuHeader {
+    background: linear-gradient( to right, #434343, #000000 );
+}
+
+.blue-gradient {
+  background: #00f2fe;
+  background: linear-gradient(-90deg, #00f2fe 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #00f2fe 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.hero-img{
+  animation: rotate 5s linear 2s infinite alternate;
+}
+
+.text-light {
+  animation: textLight 5s linear infinite;
+}
+
+.glitch {
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  color: #fff;
+}
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.glitch::before {
+  color: #f0f;
+  animation: glitch 3s infinite;
+}
+.glitch::after {
+  color: #0ff;
+  animation: glitch 2s infinite;
+}
+.moveUpDown-2  {
+  animation-name: moveUpDown2;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-iteration-count: infinite;
+}
+
+.spinning {
+  border-top-color: #ffffff !important;
+  border-right-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  -webkit-animation: spinner 1s linear infinite;
+  animation: spinner 1s linear infinite;
+}
+
+.animation {
+  animation: animate 2s infinite ease alternate;
+}
+
+.animation-1 {
+  animation: animate1 2s infinite ease alternate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(2deg);
+  }
+  20% {
+    transform: rotate(-2deg);
+  }
+  40% {
+    transform: rotate(2deg);
+  }
+  60% {
+    transform: rotate(-2deg);
+  }
+  80% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+@keyframes textLight {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #2d2d2e;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff,
+      0 0 160px #0ff;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    left: -2px;
+    top: 1px;
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 255, 0, 0.75), 0.025em 0;
+  }
+  25% {
+    left: 2px;
+    top: -1px;
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 255, 0, 0.75), 0.025em 0;
+  }
+  50% {
+    left: -2px;
+    top: 1px;
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 255, 0, 0.75), 0.025em 0;
+  }
+  75% {
+    left: 2px;
+    top: -1px;
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 255, 0, 0.75), 0.025em 0;
+  }
+  100% {
+    left: -2px;
+    top: 1px;
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 255, 0, 0.75), 0.025em 0;
+  }
+}
+
+@keyframes moveUpDown1 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes moveUpDown2 {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes animate1 {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
