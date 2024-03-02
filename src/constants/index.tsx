@@ -12,8 +12,11 @@ import TYPESCRIPT from "../assets/technologies/typescript.png";
 import NEXT from "../assets/technologies/nextjs.png";
 import ANTD from "../assets/technologies/antd.png";
 import GIT from "../assets/technologies/git.png";
-import Project01 from "../assets/project1.webp";
-import Project02 from "../assets/project2.jpg";
+import Japancupid from "../assets/japancupid.png";
+import Pancake from "../assets/pancake.png";
+import TMDB from "../assets/themoviedb.png";
+import Meetmax from "../assets/meetmax.png";
+import Ecom from "../assets/ecommer.png";
 
 export const menuHeader = [
   {
@@ -46,10 +49,10 @@ export const menuHeader = [
 export const experiences = [
   {
     title: "Frontend Developer",
-    company_name: "Acom",
+    company_name: "NTQ Solution JSC",
     icon: Anpha,
     iconBg: "#383E56",
-    date: "June 2022 - Present",
+    date: "Feb 2022 - Jan 2023",
     technology:
       "HTML, CSS, Javascript, Typescript, ReactJS, Redux-saga, Redux, TailwindCSS, Ant Design, MySQL, NodeJS, More... ",
     points: [
@@ -61,17 +64,16 @@ export const experiences = [
   },
   {
     title: "Frontend Developer",
-    company_name: "Acom",
+    company_name: "Luvina JSC",
     icon: Anpha,
     iconBg: "#383E56",
-    date: "June 2022 - Present",
+    date: "Jan 2023 - Jan 2024",
     technology:
       "HTML, CSS, Javascript, Typescript, ReactJS, Redux-saga, Redux, TailwindCSS, Ant Design, MySQL, NodeJS, More... ",
     points: [
-      "Developing and maintaining web applications using React.js, Typescript and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leveraging advanced expertise in React.js and Typescript, I lead the development and continuous enhancement of sophisticated web applications. Engaging with multifaceted teams, which include design visionaries, product strategists, and fellow developers, I play a pivotal role in crafting cutting-edge products of exceptional quality.",
+      "Meticulously implementing responsive design principles, I ensure an optimal user experience across diverse devices and browsers. My responsibilities extend to the forefront of technology, where I stay abreast of the latest advancements, integrating them seamlessly into the development workflow for optimal performance and innovation.",
+      "A key contributor to the software development lifecycle, I actively participate in meticulous code reviews, providing insightful feedback and fostering a collaborative environment for continuous improvement. My commitment to excellence drives the creation of scalable and efficient frontend solutions that elevate the user interface to unparalleled standards.",
     ],
   },
 ];
@@ -147,7 +149,7 @@ export const technologies = [
 
 export const projects = [
   {
-    name: "Shop Card",
+    name: "Japan cupid",
     description:
       "Build user UX/UI, show products, search by brands, type, price and sort, shopping cart, others...",
     tags: [
@@ -172,15 +174,15 @@ export const projects = [
         color: "text-purple-500",
       },
     ],
-    image: Project01,
-    source_code_link: "https://github.com/PhongThanh0907/Shop-Ecommerce-V2",
+    image: Japancupid,
+    source_code_link: "#",
   },
   {
-    name: "Porfolio",
-    description: "Build UX/UI, Animation, Show information",
+    name: "PancakeSwap",
+    description: "Build UX/UI, Animation, Show information, design chart",
     tags: [
       {
-        name: "react",
+        name: "nextjs 12",
         color: "text-blue-500",
       },
       {
@@ -188,27 +190,51 @@ export const projects = [
         color: "text-[#00FFFF]",
       },
       {
-        name: "three",
+        name: "graphql",
         color: "text-[#ADFF2F]",
       },
       {
-        name: "framer-motion",
+        name: "redux saga",
         color: "text-green-500",
       },
       {
-        name: "tailwind",
+        name: "tailwind CSS",
         color: "text-purple-500",
       },
     ],
-    image: Project02,
-    source_code_link: "https://github.com/PhongThanh0907/My-Porfolio-V2",
+    image: Pancake,
+    source_code_link: "https://github.com/trucka312/pancake",
   },
   {
-    name: "Porfolio",
+    name: "TMDB",
     description: "Build UX/UI, Animation, Show information",
     tags: [
       {
-        name: "react",
+        name: "react JS",
+        color: "text-blue-500",
+      },
+      {
+        name: "Javascript",
+        color: "text-[#00FFFF]",
+      },
+      {
+        name: "redux toolkit",
+        color: "text-green-500",
+      },
+      {
+        name: "tailwind CSS",
+        color: "text-purple-500",
+      },
+    ],
+    image: TMDB,
+    source_code_link: "https://github.com/trucka312/Reactjs_The_MovieDB",
+  },
+  {
+    name: "Meetmax",
+    description: "Build UX/UI, Handling Feature, Chat feature...",
+    tags: [
+      {
+        name: "Nextjs 13",
         color: "text-blue-500",
       },
       {
@@ -216,75 +242,47 @@ export const projects = [
         color: "text-[#00FFFF]",
       },
       {
-        name: "three",
+        name: "socket.io",
         color: "text-[#ADFF2F]",
       },
       {
-        name: "framer-motion",
+        name: "Zustand",
         color: "text-green-500",
       },
       {
-        name: "tailwind",
+        name: "tailwind CSS",
         color: "text-purple-500",
       },
     ],
-    image: Project02,
-    source_code_link: "https://github.com/PhongThanh0907/My-Porfolio-V2",
+    image: Meetmax,
+    source_code_link: "https://github.com/trucka312/nextTS_meetmax",
   },
   {
-    name: "Porfolio",
-    description: "Build UX/UI, Animation, Show information",
+    name: "JanMarket",
+    description: "Build UX/UI, Order feature, Balance, Card",
     tags: [
       {
-        name: "react",
+        name: "react JS",
         color: "text-blue-500",
       },
       {
-        name: "typescript",
+        name: "javascript",
         color: "text-[#00FFFF]",
       },
       {
-        name: "three",
+        name: "zustand",
         color: "text-[#ADFF2F]",
       },
       {
-        name: "framer-motion",
+        name: "antd 5",
         color: "text-green-500",
       },
       {
-        name: "tailwind",
+        name: "tailwind CSS",
         color: "text-purple-500",
       },
     ],
-    image: Project02,
-    source_code_link: "https://github.com/PhongThanh0907/My-Porfolio-V2",
-  },
-  {
-    name: "Porfolio",
-    description: "Build UX/UI, Animation, Show information",
-    tags: [
-      {
-        name: "react",
-        color: "text-blue-500",
-      },
-      {
-        name: "typescript",
-        color: "text-[#00FFFF]",
-      },
-      {
-        name: "three",
-        color: "text-[#ADFF2F]",
-      },
-      {
-        name: "framer-motion",
-        color: "text-green-500",
-      },
-      {
-        name: "tailwind",
-        color: "text-purple-500",
-      },
-    ],
-    image: Project02,
-    source_code_link: "https://github.com/PhongThanh0907/My-Porfolio-V2",
+    image: Ecom,
+    source_code_link: "https://github.com/trucka312/hihi_web_user_Reactjs",
   },
 ];

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Avatar from "../assets/imgabout.jpg";
+import Avatar from "../assets/me.jpg";
 import TextLight from "./TextLight";
 
 export default function About() {

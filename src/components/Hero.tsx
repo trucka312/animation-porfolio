@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import ComputersCanvas from "./canvas/Computer";
 
@@ -7,7 +6,7 @@ export default function Hero() {
     words: [
       "Welcome to my Portfolio",
       "Hi, I am a Web Developer",
-      "My name is Phong",
+      "My name is Phuc",
     ],
     loop: true,
     delaySpeed: 2000,

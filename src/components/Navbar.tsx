@@ -38,19 +38,22 @@ export default function Navbar() {
         </div>
         <div>
           <SocialIcon
-            url="https://www.facebook.com/profile.php?id=100033127445154"
+            url="https://www.facebook.com/giangsinh.honma?mibextid=LQQJ4d"
             fgColor="gray"
             bgColor="transparent"
+            target="_blank"
           />
           <SocialIcon
-            url="https://github.com/PhongThanh0907"
+            url="https://github.com/trucka312"
             fgColor="gray"
             bgColor="transparent"
+            target="_blank"
           />
           <SocialIcon
-            url="https://www.linkedin.com/in/phong-ph%E1%BA%A1m-034480248/"
+            url="https://linkedin.com/in/phuc-tran-319147271"
             fgColor="gray"
             bgColor="transparent"
+            target="_blank"
           />
         </div>
       </div>

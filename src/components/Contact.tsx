@@ -38,9 +38,9 @@ export default function Contact() {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Phong Phạm",
+          to_name: "Trucka",
           from_email: form.email,
-          to_email: "phong.thanh971997@gmail.com",
+          to_email: "trucka312@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -213,7 +213,7 @@ export default function Contact() {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What you want to say?"
+              placeholder="What do you wanna to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -221,7 +221,7 @@ export default function Contact() {
           <button
             type="submit"
             // onClick={handleSubmit}
-            className={`py-2 px-8 border rounded flex justify-center items-center bg-tertiary  w-fit text-white font-bold shadow-md shadow-primary `}
+            className={`py-2 px-14 border rounded flex justify-center items-center bg-tertiary  w-fit text-white font-bold shadow-md shadow-primary `}
           >
             <div
               className={`spinning ease-linear rounded-full border-2 border-t-2 h-4 w-4 mr-1 ${
