@@ -54,9 +54,9 @@ export const experiences = [
     iconBg: "#383E56",
     date: "Feb 2022 - Jan 2023",
     technology:
-      "HTML, CSS, Javascript, Typescript, ReactJS, Redux-saga, Redux, TailwindCSS, Ant Design, MySQL, NodeJS, More... ",
+      "HTML, CSS, Javascript, Typescript, ReactJS, Redux, TailwindCSS, Ant Design, MySQL, PHP Laravel,... ",
     points: [
-      "Developing and maintaining web applications using React.js, Typescript and other related technologies.",
+      "Developing and maintaining web applications using React.js, PHP and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -69,7 +69,7 @@ export const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - Jan 2024",
     technology:
-      "HTML, CSS, Javascript, Typescript, ReactJS, Redux-saga, Redux, TailwindCSS, Ant Design, MySQL, NodeJS, More... ",
+      "HTML, CSS, Javascript, Typescript, ReactJS, AngularJS, NextJS, Redux, TailwindCSS, Ant Design... ",
     points: [
       "Leveraging advanced expertise in React.js and Typescript, I lead the development and continuous enhancement of sophisticated web applications. Engaging with multifaceted teams, which include design visionaries, product strategists, and fellow developers, I play a pivotal role in crafting cutting-edge products of exceptional quality.",
       "Meticulously implementing responsive design principles, I ensure an optimal user experience across diverse devices and browsers. My responsibilities extend to the forefront of technology, where I stay abreast of the latest advancements, integrating them seamlessly into the development workflow for optimal performance and innovation.",
