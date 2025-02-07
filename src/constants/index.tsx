@@ -17,6 +17,10 @@ import Pancake from "../assets/pancake.png";
 import TMDB from "../assets/themoviedb.png";
 import Meetmax from "../assets/meetmax.png";
 import Ecom from "../assets/ecommer.png";
+import Physio from "../assets/physio.png";
+import F from "../assets/F.png";
+import Isempai from "../assets/isempai.png";
+import BlueCare from "../assets/blueCare.png";
 
 export const menuHeader = [
   {
@@ -74,6 +78,22 @@ export const experiences = [
       "Leveraging advanced expertise in React.js and Typescript, I lead the development and continuous enhancement of sophisticated web applications. Engaging with multifaceted teams, which include design visionaries, product strategists, and fellow developers, I play a pivotal role in crafting cutting-edge products of exceptional quality.",
       "Meticulously implementing responsive design principles, I ensure an optimal user experience across diverse devices and browsers. My responsibilities extend to the forefront of technology, where I stay abreast of the latest advancements, integrating them seamlessly into the development workflow for optimal performance and innovation.",
       "A key contributor to the software development lifecycle, I actively participate in meticulous code reviews, providing insightful feedback and fostering a collaborative environment for continuous improvement. My commitment to excellence drives the creation of scalable and efficient frontend solutions that elevate the user interface to unparalleled standards.",
+    ],
+  },
+  {
+    title: "Freelancer",
+    company_name: "Korean Customer",
+    icon: Anpha,
+    iconBg: "#383E56",
+    date: "March 2024 - Jan 2025",
+    technology:
+      "HTML, CSS, Javascript, Typescript, ReactJS, NextJS, Redux, TailwindCSS, Ant Design... ",
+    points: [
+      "Actively communicate with the client to clarify requirements, propose suitable solutions, and refine the product based on feedback, ensuring it meets expectations and industry standards.",
+      "Design and develop web interfaces using React.js, Next.js, and modern technologies, ensuring a visually appealing, user-friendly experience across multiple devices.",
+      "Collaborate closely with designers to bring UI/UX concepts to life, optimizing designs for consistency, usability, and aesthetic quality.",
+      "Work alongside backend developers to integrate APIs, manage data processing, and enhance application performance, ensuring a seamless and efficient system.",
+      "Stay updated with the latest technologies to improve product quality, implement best practices, and optimize performance and security throughout the development process."
     ],
   },
 ];
@@ -285,4 +305,93 @@ export const projects = [
     image: Ecom,
     source_code_link: "https://github.com/trucka312/hihi_web_user_Reactjs",
   },
+  {
+    name: "Physio App",
+    description: "Build UX/UI, responsive, handle payments",
+    tags: [
+      {
+        name: "react JS",
+        color: "text-blue-500",
+      },
+      {
+        name: "vite",
+        color: "text-[#00FFFF]",
+      },
+      {
+        name: "zustand",
+        color: "text-[#ADFF2F]",
+      },
+      {
+        name: "antd 5",
+        color: "text-green-500",
+      },
+      {
+        name: "tailwind CSS",
+        color: "text-purple-500",
+      },
+    ],
+    image: Physio,
+    source_code_link: "http://52.78.173.187:3000/",
+  },
+  {
+    name: "Landing Page F company",
+    description: "Build UX/UI, responsive, SEO, handle animation, Deploy",
+    tags: [
+      {
+        name: "Next JS",
+        color: "text-blue-500",
+      },
+      {
+        name: "vite",
+        color: "text-[#00FFFF]",
+      },
+      {
+        name: "tailwind CSS",
+        color: "text-purple-500",
+      },
+    ],
+    image: F,
+    source_code_link: "https://github.com/trucka312/folinas_LLC.git",
+  }, 
+  {
+    name: "Isempai",
+    description: "Build UX/UI, responsive, SEO, Deploy",
+    tags: [
+      {
+        name: "React JS",
+        color: "text-blue-500",
+      },
+      {
+        name: "vite",
+        color: "text-[#00FFFF]",
+      },
+      {
+        name: "tailwind CSS",
+        color: "text-purple-500",
+      },
+    ],
+    image: Isempai,
+    source_code_link: "https://isempai.vn/",
+  },
+  {
+    name: "BlueCare app",
+    description: "Build UX/UI, responsive, SEO, Deploy",
+    tags: [
+      {
+        name: "React JS",
+        color: "text-blue-500",
+      },
+      {
+        name: "vite",
+        color: "text-[#00FFFF]",
+      },
+      {
+        name: "tailwind CSS",
+        color: "text-purple-500",
+      },
+    ],
+    image: BlueCare,
+    source_code_link: "https://bluecare.vn/",
+  },
+  
 ];
