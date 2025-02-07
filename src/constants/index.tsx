@@ -52,7 +52,7 @@ export const experiences = [
     company_name: "NTQ Solution JSC",
     icon: Anpha,
     iconBg: "#383E56",
-    date: "Feb 2022 - Jan 2023",
+    date: "April 2022 - Dec 2022",
     technology:
       "HTML, CSS, Javascript, Typescript, ReactJS, Redux, TailwindCSS, Ant Design, MySQL, PHP Laravel,... ",
     points: [
